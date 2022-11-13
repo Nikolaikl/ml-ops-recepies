@@ -18,7 +18,7 @@ See where you want to be in this level of MlOps.
 
 ### Prefect
 
-Orchistration of experimentation and deployment 
+Orchistration of experimentation and deployment - we can turn basic scripts into workflows (Optionally)
 
 
 ### Docker in combination with Fastapi/Flask/Django
@@ -26,5 +26,7 @@ Orchistration of experimentation and deployment
 Containerisation of a restful API which can be linked with one Prefect, mlflow, and observation tools like Grafana 
 
 Deployment can be done either offline with batch service locally - or online by either being invoked via HTTP (API Gateway on AWS) or via Streaming
+
+Tools to deploy the model include Flask/Django or Fastapi
 
 
