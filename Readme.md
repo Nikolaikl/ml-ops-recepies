@@ -18,7 +18,9 @@ Assuming you need Machine Learning in Production to support (automatic) decision
 
 ## Tools:
 
-## (feast)[https://feast.dev] - Feature Store Solution 
+## Feast
+
+[feast](https://feast.dev) - Feature Store Solution 
 
 Open Source Feature store to automate ETL pipelelines into prod/staging/test environment for inference
 
@@ -28,14 +30,14 @@ Depending how quick your db is there are some different concerns:
 
 Alternatives: Pull some data warehouse solutions in either 
 
-### (DVC)[https://www.dvc.org] - Data Version Controll
+### [DVC](https://www.dvc.org) - Data Version Control
 
 DVC runs on top of any ml git repo - to store the artifacts we can use any possible stroage provider 
 
 DVC allows to track any of the metrics we want to track for each experiment -> we can also set it back like Git 
 
 
-### Ml flow
+### [mlflow](https://mlflow.org)
 
 Experiment tracking and Model registry -> can be linked with a db/data lake/s3 to store models 
 
