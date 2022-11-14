@@ -18,7 +18,7 @@ Assuming you need Machine Learning in Production to support (automatic) decision
 
 ## Tools:
 
-## Feast
+### Feast
 
 [feast](https://feast.dev) - Feature Store Solution 
 
@@ -47,7 +47,7 @@ Like all definitions, you can find some other definitions for the levels or crit
 
 See where you want to be in this level of MlOps. 
 
-### Prefect
+### [Prefect](https://prefect.io)
 
 Orchistration of experimentation and deployment - we can turn basic scripts into workflows (Optionally)
 
